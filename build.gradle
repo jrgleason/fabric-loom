@@ -11,7 +11,7 @@ plugins {
 	id "com.diffplug.spotless" version "5.14.1"
 }
 
-sourceCompatibility = 16
+sourceCompatibility = 17
 targetCompatibility = 16
 
 tasks.withType(JavaCompile).configureEach {
@@ -155,7 +155,7 @@ gradlePlugin {
 }
 
 jacoco {
-	toolVersion = "0.8.6"
+	toolVersion = "0.8.7"
 }
 
 // Run to get test coverage.
